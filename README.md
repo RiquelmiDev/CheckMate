@@ -34,7 +34,7 @@ Veja a aplicação em funcionamento: [Link para a demonstração](#).
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/checkmate-todo-list.git
+   git clone https://github.com/RiquelmiDev/CheckMate.git
    ```
 
 2. Navegue até o diretório do projeto:
