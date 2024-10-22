@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+# CheckMate - To-Do List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação simples de lista de tarefas (To-Do List) construída utilizando o framework React. O objetivo é permitir que os usuários possam adicionar, visualizar, marcar como concluídas e remover tarefas de uma lista de forma eficiente e intuitiva.
 
-## Available Scripts
+## Demonstração
 
-In the project directory, you can run:
+Veja a aplicação em funcionamento: [Link para a demonstração](#).
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Adicionar novas tarefas
+- Marcar tarefas como concluídas
+- Remover tarefas
+- Visualizar status das tarefas
+- Interface simples, intuitiva e responsiva
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+- **React** - Biblioteca JavaScript para construção de interfaces de usuário
+- **TypeScript** - Lógica da aplicação
+- **HTML5**, **CSS3**, **SASS** - Estrutura e estilo
+- **React Hooks** - Para gerenciar estado e efeitos
+- **Create React App** - Ferramenta de inicialização do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar o Projeto Localmente
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js instalado ([Download Node.js](https://nodejs.org/))
+- Gerenciador de pacotes (NPM ou Yarn)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Passos para rodar localmente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone este repositório:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/RiquelmiDev/CheckMate.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Navegue até o diretório do projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd checkmate
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Instale as dependências:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-## Learn More
+4. Inicie a aplicação:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   # ou
+   yarn start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   O projeto será iniciado em `http://localhost:3000`.
+
+## Estrutura de Pastas
+
+```bash
+├── public
+│   └── index.html        # Página HTML principal
+├── src
+│   ├── components        # Componentes reutilizáveis
+│   ├── App.js            # Componente principal da aplicação
+│   ├── index.js          # Entrada da aplicação React
+│   └── styles.css        # Estilos da aplicação
+└── package.json          # Configuração do projeto e dependências
+```
+
+## Contribuindo
+
+Contribuições são bem-vindas! Se você encontrar bugs ou tiver sugestões, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+>>>>>>> 06a7a276cd55efcfd0653a4a40e65afc8882d68b
